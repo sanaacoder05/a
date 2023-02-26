@@ -48,12 +48,14 @@ function draw(){
     circle(leftwristx,leftwristy,15);
    soud.pause();
     sound.play();
+    document.getElementById("speedup").innnerHTML = "darkside playing"
     }
 
     if(scoreRightwrist > 0.2){
         circle(rightwristX,rightwristy,15);
        sound.pause();
         soud.play();
+        document.getElementById("speedup").innerHTML = "harry potter playing"
         }
 
 }

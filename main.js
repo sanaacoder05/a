@@ -68,6 +68,6 @@ function play() {
 }
 
 function pause() {
-    sound.pause();
-    soud.pause();
+    sound.stop();
+    soud.stop();
    }
